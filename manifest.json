@@ -13,7 +13,6 @@
         }
     },
  	"content_scripts": [{ 
-      "css": ["tooltip.css"],
       "js": ["content_script.js"],
       "matches": ["<all_urls>"]
     }],
@@ -25,5 +24,5 @@
     	"page": "background.html",
     	"persistent": true
     },
-    "web_accessible_resources": ["tooltip.css", "pop.css"]
+    "web_accessible_resources": ["pop.css"]
 }
