@@ -1,0 +1,40 @@
+/* The Modal (background) */
+.simplePopup {
+  display: none; /* Hidden by default */
+  position: relative; /* Stay in place */
+  z-index: 999999; /* Sit on top */
+  right: 0px;
+  top: 0px;
+  margin:5px;
+  width: 25%; /* Full width */
+  height: 90px; /* Full height */
+  /*overflow: auto;  Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  
+}
+
+/* Modal Content/Box */
+.simplePopup-content {
+  background-color: #fefefe;
+  color:black;
+
+  margin:5px;
+  padding-right: 0px;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 90%; /* Could be more or less, depending on screen size */
+  height: 40px;
+}
+
+/* The Close Button */
+.simplePopup-close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.simplePopup::hover{
+  display: block;
+}
+
+

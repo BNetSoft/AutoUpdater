@@ -1,0 +1,33 @@
+body {
+    display: flex;
+   margin: auto;
+   padding: 0;
+
+flex-direction: column;
+}
+
+#dialog-box {
+text-align: center;
+    font-size: medium;
+    font-style: bold;
+    align-items: center;
+    color: #C9C9CC;
+}
+
+#ptext{
+text-align: center;
+    font-size: medium;
+    font-style: bold;
+    align-items: center;
+    color: #C9C9CC;
+}
+#container {
+
+  
+    width: 250px;
+    height: 80px;
+   padding: 0;
+    background-color: #14142c;
+   
+
+}
